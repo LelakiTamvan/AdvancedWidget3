@@ -33,6 +33,6 @@
             android:id="@+id/textViewHasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Hasil" />
+            tools:text='@{nama==null||nama.equals("") ? "": " Nama Anda: " +nama}' />
 </LinearLayout>
 </layout>

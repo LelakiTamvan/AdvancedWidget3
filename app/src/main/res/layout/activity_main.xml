@@ -27,10 +27,11 @@
         <EditText
             android:id="@+id/editTextNama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@={nama}" />
 
         <TextView
-            android:id="@+id/textViewHasil"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text='@{nama==null||nama.equals("") ? "": " Nama Anda: " +nama}' />
